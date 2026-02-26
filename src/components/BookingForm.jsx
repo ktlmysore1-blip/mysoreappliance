@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { Phone } from 'lucide-react';
 
 const BookingForm = ({ defaultBrand, defaultAppliance }) => {
     const { register, handleSubmit, formState: { errors } } = useForm({
@@ -100,6 +101,14 @@ const BookingForm = ({ defaultBrand, defaultAppliance }) => {
                 >
                     Submit Booking Request
                 </button>
+
+                <a
+                    href="tel:+919380238467"
+                    className="w-full flex items-center justify-center gap-2 bg-accent hover:bg-orange-600 text-white font-black py-4 rounded-lg transition-all active:scale-95 shadow-lg mt-3 text-lg"
+                >
+                    <Phone size={20} />
+                    Call Now: 938 023 8467
+                </a>
             </form>
         </div>
     );
