@@ -14,7 +14,7 @@ const ContactPage = () => {
                 title="Get In Touch"
                 subtitle="We are here to help you with all your appliance repair needs in Mysore. Reach out to us anytime."
                 onBookClick={() => document.getElementById('contact-info').scrollIntoView({ behavior: 'smooth' })}
-                onCallClick={() => window.open('tel:+919000000000')}
+                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section id="contact-info" className="py-20 px-4 md:px-8 bg-gray-50">
@@ -31,7 +31,7 @@ const ContactPage = () => {
                                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                                     <Phone className="text-primary mb-4" size={32} />
                                     <h4 className="font-bold text-gray-800 text-lg">Call Us</h4>
-                                    <a href="tel:+919000000000" className="text-gray-600 hover:text-primary transition-colors text-lg font-medium">+91 90000 00000</a>
+                                    <a href="tel:+919380238467" className="text-gray-600 hover:text-primary transition-colors text-lg font-medium">+91 90000 00000</a>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                                     <Mail className="text-primary mb-4" size={32} />

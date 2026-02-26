@@ -137,7 +137,7 @@ const Navbar = () => {
                         </div>
 
                         <a
-                            href="tel:+919000000000"
+                            href="tel:+919380238467"
                             className={`flex items-center bg-accent text-white px-8 py-3.5 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-orange-600 transition-all transform hover:-translate-y-1 shadow-[0_15px_30px_-5px_rgba(255,152,0,0.4)] active:scale-95`}
                         >
                             <Phone size={18} className="mr-3 animate-pulse" />
@@ -193,7 +193,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="pt-4">
-                        <a href="tel:+919000000000" className="flex items-center justify-center bg-primary text-white w-full py-4 rounded-2xl font-bold text-lg shadow-xl active:scale-95 transition-transform">
+                        <a href="tel:+919380238467" className="flex items-center justify-center bg-primary text-white w-full py-4 rounded-2xl font-bold text-lg shadow-xl active:scale-95 transition-transform">
                             <Phone size={24} className="mr-3" />
                             Call Helpdesk Now
                         </a>

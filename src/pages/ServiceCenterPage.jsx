@@ -36,7 +36,7 @@ const ServiceCenterPage = () => {
                 title={h1}
                 subtitle={`${brand.name} premium care for your home appliances. Experienced technicians and genuine spares across all areas of Mysore.`}
                 onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919000000000')}
+                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -127,7 +127,7 @@ const ServiceCenterPage = () => {
                                     <p className="font-medium text-blue-100">Certified Technicians with 10+ years of {brand.name} experience.</p>
                                 </li>
                             </ul>
-                            <a href="tel:+919000000000" className="mt-10 block bg-accent hover:bg-orange-600 text-white text-center py-4 rounded-2xl font-black shadow-lg transition-all uppercase tracking-widest active:scale-95">
+                            <a href="tel:+919380238467" className="mt-10 block bg-accent hover:bg-orange-600 text-white text-center py-4 rounded-2xl font-black shadow-lg transition-all uppercase tracking-widest active:scale-95">
                                 Call Helpline
                             </a>
                         </div>

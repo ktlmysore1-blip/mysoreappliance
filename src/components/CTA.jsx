@@ -17,14 +17,14 @@ const CTA = () => {
 
                         <div className="flex flex-col sm:flex-row gap-6 justify-center">
                             <a
-                                href="tel:+919000000000"
+                                href="tel:+919380238467"
                                 className="bg-white text-primary px-10 py-5 rounded-full font-bold text-xl hover:bg-blue-50 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center"
                             >
                                 <Phone size={24} className="mr-3" />
                                 Call +91 90000 00000
                             </a>
                             <a
-                                href="https://wa.me/919000000000"
+                                href="https://wa.me/919380238467"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="bg-[#25D366] text-white px-10 py-5 rounded-full font-bold text-xl hover:bg-green-600 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center"

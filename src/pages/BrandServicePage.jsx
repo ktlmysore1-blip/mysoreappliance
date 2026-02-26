@@ -43,7 +43,7 @@ const BrandServicePage = () => {
                 title={h1}
                 subtitle={`Fastest ${brand.name} ${product} repair and maintenance services in Mysore. Genuine spare parts and certified technicians.`}
                 onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919000000000')}
+                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -175,7 +175,7 @@ const BrandServicePage = () => {
                         <div className="bg-white/5 backdrop-blur-3xl border border-white/10 p-10 rounded-[3rem] shadow-3xl text-center relative z-10">
                             <h3 className="text-2xl font-bold mb-4">Book Your {brand.name} Fix</h3>
                             <p className="text-gray-400 mb-8 font-medium">Certified Technicians available in all Mysore wards.</p>
-                            <a href="tel:+919000000000" className="block w-full bg-accent hover:bg-orange-600 text-white font-black py-5 rounded-2xl transition-all shadow-xl uppercase tracking-widest text-sm mb-4">
+                            <a href="tel:+919380238467" className="block w-full bg-accent hover:bg-orange-600 text-white font-black py-5 rounded-2xl transition-all shadow-xl uppercase tracking-widest text-sm mb-4">
                                 Call Helpline Now
                             </a>
                             <p className="text-[10px] text-gray-500 uppercase tracking-widest">24/7 Emergency Support</p>

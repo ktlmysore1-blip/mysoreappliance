@@ -73,7 +73,7 @@ const Footer = () => {
                         <Phone className="text-accent mr-3" size={24} />
                         <div>
                             <p className="text-gray-400 text-xs uppercase font-bold">Call Anytime</p>
-                            <a href="tel:+919000000000" className="text-xl font-bold">+91 90000 00000</a>
+                            <a href="tel:+919380238467" className="text-xl font-bold">+91 90000 00000</a>
                         </div>
                     </div>
                     <div className="flex items-center">

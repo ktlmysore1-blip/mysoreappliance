@@ -25,7 +25,7 @@ const HomePage = () => {
             "postalCode": "570017",
             "addressCountry": "IN"
         },
-        "telephone": "+919000000000",
+        "telephone": "+919380238467",
         "url": "https://quickrepairmysore.com"
     };
 
@@ -41,20 +41,14 @@ const HomePage = () => {
                 schema={schema}
             />
 
-            {/* Hero Section */}
+            {/* Hero Section with embedded Booking Form */}
             <HeroBanner
                 title="Mysore's #1 Appliance Repair Service"
                 subtitle="Quick, reliable, and professional doorstep service for all home appliances in Mysore. Certified technicians at your service."
                 onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919000000000')}
+                onCallClick={() => window.open('tel:+919380238467')}
+                showForm={true}
             />
-
-            {/* Booking Form Section */}
-            <section id="booking-section" className="py-20 px-4 md:px-8 -mt-20 relative z-10">
-                <div className="max-w-4xl mx-auto">
-                    <BookingForm />
-                </div>
-            </section>
 
             {/* About Us Section */}
             <AboutUs />
