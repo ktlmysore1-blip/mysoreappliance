@@ -13,8 +13,6 @@ const ContactPage = () => {
             <HeroBanner
                 title="Get In Touch"
                 subtitle="We are here to help you with all your appliance repair needs in Mysore. Reach out to us anytime."
-                onBookClick={() => document.getElementById('contact-info').scrollIntoView({ behavior: 'smooth' })}
-                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section id="contact-info" className="py-20 px-4 md:px-8 bg-gray-50">

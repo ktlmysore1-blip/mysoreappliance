@@ -36,14 +36,14 @@ const BrandServicePage = () => {
     };
 
     return (
-        <div className="bg-white pt-20 md:pt-24">
+        <div className="bg-white">
             <MetaSEO title={`${title} | 24/7 Expert Repair`} description={metaDescription} />
 
             <HeroBanner
                 title={h1}
                 subtitle={`Fastest ${brand.name} ${product} repair and maintenance services in Mysore. Genuine spare parts and certified technicians.`}
-                onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919380238467')}
+                defaultBrand={brand.name}
+                defaultAppliance={product}
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">

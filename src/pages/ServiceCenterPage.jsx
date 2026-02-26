@@ -29,14 +29,13 @@ const ServiceCenterPage = () => {
     };
 
     return (
-        <div className="bg-white pt-20 md:pt-24">
+        <div className="bg-white">
             <MetaSEO title={`${title} | Certified Technicians`} description={metaDescription} />
 
             <HeroBanner
                 title={h1}
                 subtitle={`${brand.name} premium care for your home appliances. Experienced technicians and genuine spares across all areas of Mysore.`}
-                onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919380238467')}
+                defaultBrand={brand.name}
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">

@@ -41,13 +41,10 @@ const HomePage = () => {
                 schema={schema}
             />
 
-            {/* Hero Section with embedded Booking Form */}
+            {/* Hero Section with Booking Form */}
             <HeroBanner
                 title="Mysore's #1 Appliance Repair Service"
                 subtitle="Quick, reliable, and professional doorstep service for all home appliances in Mysore. Certified technicians at your service."
-                onBookClick={scrollToBooking}
-                onCallClick={() => window.open('tel:+919380238467')}
-                showForm={true}
             />
 
             {/* About Us Section */}

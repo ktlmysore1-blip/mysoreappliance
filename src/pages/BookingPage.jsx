@@ -14,8 +14,6 @@ const BookingPage = () => {
             <HeroBanner
                 title="Schedule Your Repair"
                 subtitle="Fill out the form below and our Mysore technician will be at your doorstep within 90 minutes."
-                onBookClick={() => document.getElementById('booking-form-section').scrollIntoView({ behavior: 'smooth' })}
-                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section id="booking-form-section" className="py-20 px-4 md:px-8 -mt-24 relative z-10">

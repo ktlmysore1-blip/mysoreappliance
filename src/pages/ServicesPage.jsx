@@ -77,8 +77,6 @@ const ServicesPage = () => {
             <HeroBanner
                 title="Our Premium Services"
                 subtitle="Comprehensive Appliance Care in Mysore. Services Available in Mysore Only."
-                onBookClick={() => document.getElementById('all-services').scrollIntoView({ behavior: 'smooth' })}
-                onCallClick={() => window.open('tel:+919380238467')}
             />
 
             <section id="all-services" className="py-20 px-4 md:px-8 bg-gray-50">

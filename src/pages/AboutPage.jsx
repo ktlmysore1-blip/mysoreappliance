@@ -16,8 +16,6 @@ const AboutPage = () => {
             <HeroBanner
                 title="Who We Are"
                 subtitle="Dedicated to providing the best home appliance repair services in Mysore with integrity and excellence."
-                onBookClick={() => document.getElementById('why-choose').scrollIntoView({ behavior: 'smooth' })}
-                onCallClick={() => window.open('tel:+919380238467')}
             />
             <AboutUs />
             <WhyChoose />
