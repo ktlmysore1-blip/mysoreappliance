@@ -3,13 +3,13 @@ import { Phone } from 'lucide-react';
 
 const FloatingButtons = () => {
     return (
-        <div className="fixed bottom-6 right-4 z-50 flex flex-col gap-4">
-            {/* WhatsApp Button */}
+        <>
+            {/* WhatsApp floating button - visible on all screens, positioned above mobile CTA */}
             <a
                 href="https://wa.me/919380238467?text=Hi, I need appliance repair service in Mysore."
                 target="_blank"
                 rel="noreferrer"
-                className="bg-[#25D366] text-white w-14 h-14 rounded-full shadow-[0_6px_20px_rgba(37,211,102,0.4)] hover:scale-110 active:scale-95 transition-all flex items-center justify-center"
+                className="fixed bottom-24 md:bottom-6 right-4 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full shadow-[0_6px_20px_rgba(37,211,102,0.4)] hover:scale-110 active:scale-95 transition-all flex items-center justify-center"
                 aria-label="Chat on WhatsApp"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -17,16 +17,27 @@ const FloatingButtons = () => {
                 </svg>
             </a>
 
-            {/* Call Button - subtle pulse ring instead of bounce */}
+            {/* Desktop only: Call floating button */}
             <a
                 href="tel:+919380238467"
-                className="relative bg-accent text-white w-14 h-14 rounded-full shadow-[0_6px_20px_rgba(255,152,0,0.4)] hover:scale-110 active:scale-95 transition-all flex items-center justify-center"
+                className="hidden md:flex fixed bottom-6 right-4 z-50 bg-accent text-white w-14 h-14 rounded-full shadow-[0_6px_20px_rgba(255,152,0,0.4)] hover:scale-110 active:scale-95 transition-all items-center justify-center"
                 aria-label="Call Now"
             >
                 <span className="absolute inset-0 rounded-full bg-accent animate-ping opacity-30"></span>
                 <Phone size={24} className="relative z-10" />
             </a>
-        </div>
+
+            {/* Mobile only: Sticky bottom Call bar */}
+            <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-accent shadow-[0_-4px_20px_rgba(0,0,0,0.15)] safe-bottom">
+                <a
+                    href="tel:+919380238467"
+                    className="flex items-center justify-center gap-3 py-4 text-white font-black text-lg uppercase tracking-wider active:scale-95 transition-transform"
+                >
+                    <Phone size={22} className="animate-pulse" />
+                    Call Now: 938 023 8467
+                </a>
+            </div>
+        </>
     );
 };
 
