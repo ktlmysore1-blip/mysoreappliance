@@ -39,41 +39,36 @@ const ServiceCenterPage = () => {
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    <div>
-                        <h2 className="text-3xl font-bold mb-6 text-primary">About {brand.name} Mysore Center</h2>
-                        <div className="prose prose-lg text-gray-600 space-y-4">
-                            <p>
-                                Welcome to the most reliable <strong>{brand.name} service center in Mysore</strong>. We specialize in providing end-to-end repair solutions for all {brand.name} household appliances. Our Mysore facility is staffed by certified professionals trained in the latest technology.
-                            </p>
-                            <p>
-                                We offer a wide range of services for <strong>{brand.name} appliances in Mysore</strong>, including installation, uninstallation, gas charging, and board repairs.
-                            </p>
-                        </div>
-
-                        <div className="mt-8 p-8 bg-blue-50 rounded-2xl border border-blue-100 shadow-sm">
-                            <h4 className="font-bold text-primary mb-6 text-xl flex items-center">
-                                <CheckCircle className="mr-2" /> Appliances Supported:
-                            </h4>
-                            <ul className="grid grid-cols-2 gap-4">
-                                {brand.products.map((p, i) => (
-                                    <li key={i} className="flex items-center text-gray-700 font-medium">
-                                        <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
-                                        {p}
-                                    </li>
-                                ))}
-                                <li className="flex items-center text-gray-700 font-medium"><span className="w-2 h-2 bg-accent rounded-full mr-3"></span> Refrigerator</li>
-                                <li className="flex items-center text-gray-700 font-medium"><span className="w-2 h-2 bg-accent rounded-full mr-3"></span> Microwave</li>
-                            </ul>
-                        </div>
-
-                        <div className="mt-8 flex items-center p-4 bg-gray-50 rounded-xl">
-                            <MapPin className="text-primary mr-4" size={24} />
-                            <p className="text-gray-600 font-medium">Headquarters: Vijayanagar, Mysore. Service available across all Mysore wards.</p>
-                        </div>
+                <div>
+                    <h2 className="text-3xl font-bold mb-6 text-primary">About {brand.name} Mysore Center</h2>
+                    <div className="prose prose-lg text-gray-600 space-y-4">
+                        <p>
+                            Welcome to the most reliable <strong>{brand.name} service center in Mysore</strong>. We specialize in providing end-to-end repair solutions for all {brand.name} household appliances. Our Mysore facility is staffed by certified professionals trained in the latest technology.
+                        </p>
+                        <p>
+                            We offer a wide range of services for <strong>{brand.name} appliances in Mysore</strong>, including installation, uninstallation, gas charging, and board repairs.
+                        </p>
                     </div>
-                    <div id="booking-section">
-                        <BookingForm defaultBrand={brand.name} />
+
+                    <div className="mt-8 p-8 bg-blue-50 rounded-2xl border border-blue-100 shadow-sm">
+                        <h4 className="font-bold text-primary mb-6 text-xl flex items-center">
+                            <CheckCircle className="mr-2" /> Appliances Supported:
+                        </h4>
+                        <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                            {brand.products.map((p, i) => (
+                                <li key={i} className="flex items-center text-gray-700 font-medium">
+                                    <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
+                                    {p}
+                                </li>
+                            ))}
+                            <li className="flex items-center text-gray-700 font-medium"><span className="w-2 h-2 bg-accent rounded-full mr-3"></span> Refrigerator</li>
+                            <li className="flex items-center text-gray-700 font-medium"><span className="w-2 h-2 bg-accent rounded-full mr-3"></span> Microwave</li>
+                        </ul>
+                    </div>
+
+                    <div className="mt-8 flex items-center p-4 bg-gray-50 rounded-xl">
+                        <MapPin className="text-primary mr-4" size={24} />
+                        <p className="text-gray-600 font-medium">Headquarters: Vijayanagar, Mysore. Service available across all Mysore wards.</p>
                     </div>
                 </div>
             </section>

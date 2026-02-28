@@ -47,32 +47,27 @@ const BrandServicePage = () => {
             />
 
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    <div>
-                        <h2 className="text-3xl font-bold mb-6 text-primary">Expert {brand.name} {product} Solutions</h2>
-                        <div className="prose prose-lg text-gray-600 space-y-4">
-                            <p>
-                                Are you facing issues with your <strong>{brand.name} {product} in Mysore</strong>? We are your trusted local experts for all kinds of {brand.name} appliance repairs. Our Mysore team provides doorstep service within 90 minutes across all major locations.
-                            </p>
-                            <p>
-                                Whether it's a gas leak, compressor failure, or routine servicing, our certified technicians ensure your <strong>{brand.name} {product} in Mysore</strong> performs at its peak efficiency.
-                            </p>
-                            <p>
-                                We serve all areas including Nazarbad, Vijayanagar, and Gokulam. With transparent pricing and original spare parts, we offer the best value for <strong>{brand.name} repair in Mysore</strong>.
-                            </p>
-                        </div>
-
-                        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            {brand.products.map((p, i) => (
-                                <div key={i} className="flex items-center p-3 bg-blue-50 rounded-lg text-primary font-bold">
-                                    <CheckCircle className="mr-2" size={18} />
-                                    {p} Repair
-                                </div>
-                            ))}
-                        </div>
+                <div>
+                    <h2 className="text-3xl font-bold mb-6 text-primary">Expert {brand.name} {product} Solutions</h2>
+                    <div className="prose prose-lg text-gray-600 space-y-4">
+                        <p>
+                            Are you facing issues with your <strong>{brand.name} {product} in Mysore</strong>? We are your trusted local experts for all kinds of {brand.name} appliance repairs. Our Mysore team provides doorstep service within 90 minutes across all major locations.
+                        </p>
+                        <p>
+                            Whether it's a gas leak, compressor failure, or routine servicing, our certified technicians ensure your <strong>{brand.name} {product} in Mysore</strong> performs at its peak efficiency.
+                        </p>
+                        <p>
+                            We serve all areas including Nazarbad, Vijayanagar, and Gokulam. With transparent pricing and original spare parts, we offer the best value for <strong>{brand.name} repair in Mysore</strong>.
+                        </p>
                     </div>
-                    <div id="booking-section">
-                        <BookingForm defaultBrand={brand.name} defaultAppliance={product} />
+
+                    <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        {brand.products.map((p, i) => (
+                            <div key={i} className="flex items-center p-3 bg-blue-50 rounded-lg text-primary font-bold">
+                                <CheckCircle className="mr-2" size={18} />
+                                {p} Repair
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
