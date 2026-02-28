@@ -6,7 +6,7 @@ const HeroBanner = ({ title, subtitle, defaultBrand, defaultAppliance }) => {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-primary via-blue-900 to-blue-950 text-white pt-24 pb-52 md:pt-32 md:pb-60 px-4 md:px-8 overflow-hidden">
+            <section className="relative bg-gradient-to-br from-primary via-blue-900 to-blue-950 text-white pt-24 pb-60 md:pt-32 md:pb-72 px-4 md:px-8 overflow-hidden">
                 {/* Background decorations */}
                 <div className="absolute inset-0 overflow-hidden">
                     <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/4 w-[500px] h-[500px] bg-white/5 rounded-full blur-3xl animate-pulse"></div>
@@ -47,7 +47,7 @@ const HeroBanner = ({ title, subtitle, defaultBrand, defaultAppliance }) => {
             </section>
 
             {/* Booking Form - half overlapping the hero */}
-            <section id="booking-section" className="relative z-10 -mt-44 px-4 md:px-8 mb-8">
+            <section id="booking-section" className="relative z-10 -mt-52 px-4 md:px-8 mb-8">
                 <div className="max-w-2xl mx-auto">
                     <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
                         <BookingForm defaultBrand={defaultBrand} defaultAppliance={defaultAppliance} />
