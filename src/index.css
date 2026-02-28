@@ -64,3 +64,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 56px;
+  }
+}
