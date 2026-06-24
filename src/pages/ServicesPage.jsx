@@ -71,7 +71,7 @@ const ServicesPage = () => {
     return (
         <div className="bg-white">
             <MetaSEO
-                title="Our Premium Services | QuickRepair Mysore - Expert Appliance Care"
+                title="Our Premium Services | Mysore Home Appliances - Expert Appliance Care"
                 description="Comprehensive Appliance Care in Mysore. We repair Refrigerator, Washing Machine, AC, TV (LED, OLED, QLED), Microwave, Dishwasher, and Projectors."
             />
             <HeroBanner

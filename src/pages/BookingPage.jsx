@@ -7,7 +7,7 @@ const BookingPage = () => {
     return (
         <div className="bg-white">
             <MetaSEO
-                title="Book a Repair | QuickRepair Mysore - Same Day Service"
+                title="Book a Repair | Mysore Home Appliances - Same Day Service"
                 description="Book your appliance repair service in Mysore online. 90-minute response guaranteed. Certified technicians for all brands."
             />
             <HeroBanner

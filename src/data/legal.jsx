@@ -5,7 +5,7 @@ export const legalContent = {
         title: "Privacy Policy",
         content: (
             <>
-                <p>Welcome to QuickRepair Mysore. We are committed to protecting your personal data and your privacy. This Privacy Policy explains how we handle your personal information when you visit our website or use our services in Mysore.</p>
+                <p>Welcome to Mysore Home Appliances. We are committed to protecting your personal data and your privacy. This Privacy Policy explains how we handle your personal information when you visit our website or use our services in Mysore.</p>
                 <h2>1. Information We Collect</h2>
                 <p>We collect personal information that you provide to us when you book a service, such as your name, phone number, physical address in Mysore, and appliance details. We also collect automated data through cookies, including your IP address and browsing behavior, primarily to improve our user experience and site speed.</p>
                 <h2>2. How We Use Your Information</h2>
@@ -30,7 +30,7 @@ export const legalContent = {
         content: (
             <>
                 <h2>1. Independent Service Provider</h2>
-                <p>QuickRepair Mysore is an <strong>independent multi-brand repair service</strong>. We are NOT authorized by or affiliated with brands like LG, Samsung, Whirlpool, etc., unless specifically stated. Using our service may void your original manufacturer warranty.</p>
+                <p>Mysore Home Appliances is an <strong>independent multi-brand repair service</strong>. We are NOT authorized by or affiliated with brands like LG, Samsung, Whirlpool, etc., unless specifically stated. Using our service may void your original manufacturer warranty.</p>
                 <h2>2. Service Booking and Cancellation</h2>
                 <p>By booking a service, you agree to provide access to your premises in Mysore for our technicians. Cancellations must be made at least 1 hour before the scheduled visit to avoid a visitation fee of ₹250.</p>
                 <h2>3. Pricing, Payments, and Taxes</h2>
@@ -38,7 +38,7 @@ export const legalContent = {
                 <h2>4. Service Warranty</h2>
                 <p>We provide a 30-day labor warranty on serviced appliances. If the same issue recurs within 30 days, we will re-fix it at no additional service cost. Spare parts carry their respective manufacturer warranties (usually 90 days).</p>
                 <h2>5. Limitation of Liability</h2>
-                <p>QuickRepair Mysore is not liable for any pre-existing damage, cosmetic wear, or indirect losses resulting from appliance failure or service delays due to unforeseen circumstances like Mysore traffic or weather.</p>
+                <p>Mysore Home Appliances is not liable for any pre-existing damage, cosmetic wear, or indirect losses resulting from appliance failure or service delays due to unforeseen circumstances like Mysore traffic or weather.</p>
             </>
         )
     },
@@ -46,7 +46,7 @@ export const legalContent = {
         title: "Disclaimer",
         content: (
             <>
-                <p>The information provided on this website is for general informational purposes only. QuickRepair Mysore is an <strong>independent repair company</strong> operating in Mysore, Karnataka.</p>
+                <p>The information provided on this website is for general informational purposes only. Mysore Home Appliances is an <strong>independent repair company</strong> operating in Mysore, Karnataka.</p>
                 <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 my-6">
                     <p className="font-bold text-red-800 uppercase tracking-wide text-sm mb-2 text-center">Important Notice</p>
                     <p className="text-red-700 font-medium">We are NOT an authorized service center for any specific brand. All trademarks, logos, and brand names are the property of their respective owners. Their use on this site is purely for identification and does not imply endorsement.</p>
@@ -60,7 +60,7 @@ export const legalContent = {
         title: "Cancellation Policy",
         content: (
             <>
-                <p>At QuickRepair Mysore, we value the time of both our customers and our technicians. Our cancellation policy is designed to be fair and transparent:</p>
+                <p>At Mysore Home Appliances, we value the time of both our customers and our technicians. Our cancellation policy is designed to be fair and transparent:</p>
                 <ol>
                     <li><strong>Advance Cancellation:</strong> If you cancel at least 1 hour before the scheduled time, there are no charges.</li>
                     <li><strong>Late Cancellation:</strong> If you cancel after the technician has đã started traveling or reached your location in Mysore, a minimum visitation fee of ₹250 will apply.</li>
@@ -89,7 +89,7 @@ export const legalContent = {
         title: "Booking Policy",
         content: (
             <>
-                <p>All bookings at QuickRepair Mysore must be made via our website, phone call, or WhatsApp. We require accurate contact information and address details to ensure timely service.</p>
+                <p>All bookings at Mysore Home Appliances must be made via our website, phone call, or WhatsApp. We require accurate contact information and address details to ensure timely service.</p>
                 <p>By booking a service, you consent to our technician visiting your premises in Mysore at the agreed-upon time.</p>
             </>
         )
@@ -107,7 +107,7 @@ export const legalContent = {
         title: "Google Ads Policy",
         content: (
             <>
-                <p>QuickRepair Mysore adheres to all Google Ads transparent branding policies. We clearly state our status as an independent service provider to prevent any user confusion. Our ads are curated to show high-intent keywords for repair and service only.</p>
+                <p>Mysore Home Appliances adheres to all Google Ads transparent branding policies. We clearly state our status as an independent service provider to prevent any user confusion. Our ads are curated to show high-intent keywords for repair and service only.</p>
             </>
         )
     },
@@ -115,7 +115,7 @@ export const legalContent = {
         title: "Content Policy",
         content: (
             <>
-                <p>All content on this website, including text, images, and brand descriptions, is the intellectual property of QuickRepair Mysore. Unauthorized reproduction or use of our SEO-optimized content is strictly prohibited.</p>
+                <p>All content on this website, including text, images, and brand descriptions, is the intellectual property of Mysore Home Appliances. Unauthorized reproduction or use of our SEO-optimized content is strictly prohibited.</p>
             </>
         )
     },

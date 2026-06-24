@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Company Info */}
                     <div>
-                        <h3 className="text-2xl font-bold text-white mb-6">QuickRepair<span className="text-accent"> Mysore</span></h3>
+                        <h3 className="text-2xl font-bold text-white mb-6">Mysore Home <span className="text-accent">Appliances</span></h3>
                         <p className="text-gray-400 mb-6 leading-relaxed">
                             Premium appliance repair services in Mysore. Independent service provider for LG, Samsung, Whirlpool, Bosch, and more. Certified technicians and genuine parts.
                         </p>
@@ -80,7 +80,7 @@ const Footer = () => {
                         <Mail className="text-accent mr-3" size={24} />
                         <div>
                             <p className="text-gray-400 text-xs uppercase font-bold">Email Us</p>
-                            <p className="text-xl font-bold">info@quickrepairmysore.com</p>
+                            <p className="text-xl font-bold">info@mysorehomeappliances.com</p>
                         </div>
                     </div>
                     <div className="flex items-center">
@@ -95,7 +95,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-                <p>© {new Date().getFullYear()} QuickRepair Mysore. All rights reserved. Independent service provider for multi-brand home appliances.</p>
+                <p>© {new Date().getFullYear()} Mysore Home Appliances. All rights reserved. Independent service provider for multi-brand home appliances.</p>
                 <div className="mt-4 flex justify-center space-x-6">
                     <Link to="/legal/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                     <Link to="/legal/terms" className="hover:text-white transition-colors">Terms of Service</Link>

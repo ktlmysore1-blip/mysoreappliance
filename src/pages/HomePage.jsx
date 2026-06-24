@@ -15,7 +15,7 @@ const HomePage = () => {
     const schema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "QuickRepair Mysore",
+        "name": "Mysore Home Appliances",
         "description": "Professional appliance repair services in Mysore for AC, Washing Machines, Refrigerators, and more.",
         "address": {
             "@type": "PostalAddress",
@@ -26,7 +26,7 @@ const HomePage = () => {
             "addressCountry": "IN"
         },
         "telephone": "+919380238467",
-        "url": "https://quickrepairmysore.com"
+        "url": "https://mysorehomeappliances.com"
     };
 
     const scrollToBooking = () => {

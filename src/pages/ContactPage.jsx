@@ -7,8 +7,8 @@ const ContactPage = () => {
     return (
         <div className="bg-white">
             <MetaSEO
-                title="Contact Us | QuickRepair Mysore - 24/7 Support"
-                description="Get in touch with QuickRepair Mysore. Professional appliance repair helpdesk. Call +91 90000 00000 for immediate assistance."
+                title="Contact Us | Mysore Home Appliances - 24/7 Support"
+                description="Get in touch with Mysore Home Appliances. Professional appliance repair helpdesk. Call +91 90000 00000 for immediate assistance."
             />
             <HeroBanner
                 title="Get In Touch"
@@ -34,7 +34,7 @@ const ContactPage = () => {
                                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                                     <Mail className="text-primary mb-4" size={32} />
                                     <h4 className="font-bold text-gray-800 text-lg">Email Us</h4>
-                                    <p className="text-gray-600 text-lg font-medium">info@quickrepairmysore.com</p>
+                                    <p className="text-gray-600 text-lg font-medium">info@mysorehomeappliances.com</p>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                                     <MapPin className="text-primary mb-4" size={32} />

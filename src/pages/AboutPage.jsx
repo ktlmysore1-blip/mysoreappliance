@@ -10,8 +10,8 @@ const AboutPage = () => {
     return (
         <div className="bg-white">
             <MetaSEO
-                title="About Us | QuickRepair Mysore - Trusted Appliance Experts"
-                description="Learn more about QuickRepair Mysore. We are the most reliable appliance repair service in Mysore with over 10 years of experience."
+                title="About Us | Mysore Home Appliances - Trusted Appliance Experts"
+                description="Learn more about Mysore Home Appliances. We are the most reliable appliance repair service in Mysore with over 10 years of experience."
             />
             <HeroBanner
                 title="Who We Are"
@@ -24,7 +24,7 @@ const AboutPage = () => {
                     <h2 className="text-3xl font-bold text-primary mb-12">Our Journey in Mysore</h2>
                     <div className="prose prose-lg mx-auto text-gray-600">
                         <p>
-                            Started as a small team of two technicians in 2014, QuickRepair Mysore has grown into a leading service network covering every corner of the royal city. We have successfully repaired over 50,000 appliances, ranging from entry-level washing machines to ultra-premium inverter ACs.
+                            Started as a small team of two technicians in 2014, Mysore Home Appliances has grown into a leading service network covering every corner of the royal city. We have successfully repaired over 50,000 appliances, ranging from entry-level washing machines to ultra-premium inverter ACs.
                         </p>
                         <p>
                             Our deep understanding of Mysore's local needs—from the hard water issues in some areas affecting washing machines to the fluctuating power grids—makes us the uniquely qualified experts for your home.

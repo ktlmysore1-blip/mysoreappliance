@@ -44,7 +44,7 @@ const Navbar = () => {
                     <div className="flex-shrink-0 flex items-center">
                         <Link to="/" className="flex flex-col group relative transform transition-transform hover:scale-105">
                             <span className={`text-2xl md:text-3xl font-black italic tracking-tighter leading-none transition-colors ${scrolled || isOpen ? 'text-primary' : 'text-white'}`} style={{ filter: scrolled ? 'none' : 'drop-shadow(0 2px 10px rgba(0,0,0,0.5))' }}>
-                                QUICK<span className="text-accent">REPAIR</span>
+                                MYSORE HOME <span className="text-accent">APPLIANCES</span>
                             </span>
                             <span className={`text-[10px] uppercase font-black tracking-[0.4em] mt-1 transition-colors ${scrolled || isOpen ? 'text-gray-500' : 'text-blue-50'}`} style={{ filter: scrolled ? 'none' : 'drop-shadow(0 1px 5px rgba(0,0,0,0.5))' }}>
                                 Mysore's Premium Service

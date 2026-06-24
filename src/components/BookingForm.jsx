@@ -10,9 +10,39 @@ const BookingForm = ({ defaultBrand, defaultAppliance }) => {
         }
     });
 
-    const onSubmit = (data) => {
-        console.log('Form Submitted:', data);
-        alert('Thank you for booking! Our technician will contact you shortly.');
+    const [isSubmitting, setIsSubmitting] = React.useState(false);
+    const [submitStatus, setSubmitStatus] = React.useState(null);
+
+    const onSubmit = async (data) => {
+        setIsSubmitting(true);
+        setSubmitStatus(null);
+        try {
+            const response = await fetch("https://formsubmit.co/ajax/mysorehomeappliances@gmail.com", {
+                method: "POST",
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    _subject: `New Booking Request from ${data.name}`,
+                    ...data
+                })
+            });
+            
+            if (response.ok) {
+                setSubmitStatus('success');
+                if (window.gtag) {
+                    window.gtag('event', 'conversion', {'send_to': 'AW-17867500857/p8ojCKzH1sQcELna8cdC'});
+                }
+            } else {
+                setSubmitStatus('error');
+            }
+        } catch (error) {
+            console.error("Form submission error:", error);
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -97,10 +127,22 @@ const BookingForm = ({ defaultBrand, defaultAppliance }) => {
 
                 <button
                     type="submit"
-                    className="w-full bg-primary hover:bg-blue-900 text-white font-bold py-4 rounded-lg transform transition active:scale-95 shadow-lg mt-4"
+                    disabled={isSubmitting}
+                    className={`w-full ${isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-primary hover:bg-blue-900'} text-white font-bold py-4 rounded-lg transform transition ${isSubmitting ? '' : 'active:scale-95'} shadow-lg mt-4`}
                 >
-                    Submit Booking Request
+                    {isSubmitting ? 'Submitting...' : 'Submit Booking Request'}
                 </button>
+
+                {submitStatus === 'success' && (
+                    <div className="mt-4 p-4 bg-green-50 text-green-700 rounded-lg border border-green-200 text-center font-medium">
+                        Thank you for booking! Our technician will contact you shortly.
+                    </div>
+                )}
+                {submitStatus === 'error' && (
+                    <div className="mt-4 p-4 bg-red-50 text-red-700 rounded-lg border border-red-200 text-center font-medium">
+                        Something went wrong. Please try again or call us directly.
+                    </div>
+                )}
 
                 <a
                     href="tel:+919380238467"

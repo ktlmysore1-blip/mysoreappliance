@@ -40,7 +40,7 @@ const WhyChoose = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h3 className="text-accent font-bold tracking-widest uppercase text-sm mb-4">Why Choose Us</h3>
-                    <h2 className="text-4xl font-bold text-primary mb-4">The QuickRepair Advantage</h2>
+                    <h2 className="text-4xl font-bold text-primary mb-4">The Mysore Home Appliances Advantage</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">Experience the best appliance repair service in Mysore with our premium features designed for your convenience.</p>
                 </div>
 
